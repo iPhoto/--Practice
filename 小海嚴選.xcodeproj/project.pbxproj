@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A04BCCBE7B54603BA669CB0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C9050F8D104ADCA4CBDFB4 /* libPods.a */; };
+		F8018AA8193784780052127C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8018AA7193784780052127C /* Foundation.framework */; };
+		F8018AAA193784780052127C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8018AA9193784780052127C /* CoreGraphics.framework */; };
+		F8018AAC193784780052127C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8018AAB193784780052127C /* UIKit.framework */; };
+		F8018AB2193784780052127C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8018AB0193784780052127C /* InfoPlist.strings */; };
+		F8018AB4193784780052127C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8018AB3193784780052127C /* main.m */; };
+		F8018AB8193784780052127C /* BeautyMasterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8018AB7193784780052127C /* BeautyMasterAppDelegate.m */; };
+		F8018ABB193784780052127C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8018AB9193784780052127C /* Main.storyboard */; };
+		F8018ABE193784780052127C /* BeautyMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8018ABD193784780052127C /* BeautyMasterViewController.m */; };
+		F8018AC0193784780052127C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8018ABF193784780052127C /* Images.xcassets */; };
+		F8018AC7193784780052127C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8018AC6193784780052127C /* XCTest.framework */; };
+		F8018AC8193784780052127C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8018AA7193784780052127C /* Foundation.framework */; };
+		F8018AC9193784780052127C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8018AAB193784780052127C /* UIKit.framework */; };
+		F8018AD1193784790052127C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8018ACF193784790052127C /* InfoPlist.strings */; };
+		F8018AD3193784790052127C /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8018AD2193784790052127C /* ____Tests.m */; };
+		F8018ADE1937A8E30052127C /* BeautyStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F8018ADD1937A8E30052127C /* BeautyStream.m */; };
+		F8018AE11937AAA40052127C /* BeautyStreamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8018AE01937AAA40052127C /* BeautyStreamCell.m */; };
+		F8FDA59C1938308D00A93B13 /* BeautyStreamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FDA59B1938308D00A93B13 /* BeautyStreamCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8018ACA193784790052127C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8018A9C193784780052127C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8018AA3193784780052127C;
+			remoteInfo = "小海嚴選";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE14DCF4867424DB2726D64 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		11C9050F8D104ADCA4CBDFB4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8018AA4193784780052127C /* 小海嚴選.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小海嚴選.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8018AA7193784780052127C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8018AA9193784780052127C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8018AAB193784780052127C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8018AAF193784780052127C /* 小海嚴選-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "小海嚴選-Info.plist"; sourceTree = "<group>"; };
+		F8018AB1193784780052127C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8018AB3193784780052127C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8018AB5193784780052127C /* 小海嚴選-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "小海嚴選-Prefix.pch"; sourceTree = "<group>"; };
+		F8018AB6193784780052127C /* BeautyMasterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautyMasterAppDelegate.h; sourceTree = "<group>"; };
+		F8018AB7193784780052127C /* BeautyMasterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyMasterAppDelegate.m; sourceTree = "<group>"; };
+		F8018ABA193784780052127C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8018ABC193784780052127C /* BeautyMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautyMasterViewController.h; sourceTree = "<group>"; };
+		F8018ABD193784780052127C /* BeautyMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyMasterViewController.m; sourceTree = "<group>"; };
+		F8018ABF193784780052127C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8018AC5193784780052127C /* 小海嚴選Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小海嚴選Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8018AC6193784780052127C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8018ACE193784790052127C /* 小海嚴選Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "小海嚴選Tests-Info.plist"; sourceTree = "<group>"; };
+		F8018AD0193784790052127C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8018AD2193784790052127C /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		F8018ADC1937A8E30052127C /* BeautyStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyStream.h; sourceTree = "<group>"; };
+		F8018ADD1937A8E30052127C /* BeautyStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyStream.m; sourceTree = "<group>"; };
+		F8018ADF1937AAA40052127C /* BeautyStreamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyStreamCell.h; sourceTree = "<group>"; };
+		F8018AE01937AAA40052127C /* BeautyStreamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyStreamCell.m; sourceTree = "<group>"; };
+		F8FDA59B1938308D00A93B13 /* BeautyStreamCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeautyStreamCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8018AA1193784780052127C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8018AAA193784780052127C /* CoreGraphics.framework in Frameworks */,
+				F8018AAC193784780052127C /* UIKit.framework in Frameworks */,
+				F8018AA8193784780052127C /* Foundation.framework in Frameworks */,
+				7A04BCCBE7B54603BA669CB0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8018AC2193784780052127C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8018AC7193784780052127C /* XCTest.framework in Frameworks */,
+				F8018AC9193784780052127C /* UIKit.framework in Frameworks */,
+				F8018AC8193784780052127C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8018A9B193784780052127C = {
+			isa = PBXGroup;
+			children = (
+				F8018AAD193784780052127C /* 小海嚴選 */,
+				F8018ACC193784790052127C /* 小海嚴選Tests */,
+				F8018AA6193784780052127C /* Frameworks */,
+				F8018AA5193784780052127C /* Products */,
+				0BE14DCF4867424DB2726D64 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		F8018AA5193784780052127C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8018AA4193784780052127C /* 小海嚴選.app */,
+				F8018AC5193784780052127C /* 小海嚴選Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8018AA6193784780052127C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8018AA7193784780052127C /* Foundation.framework */,
+				F8018AA9193784780052127C /* CoreGraphics.framework */,
+				F8018AAB193784780052127C /* UIKit.framework */,
+				F8018AC6193784780052127C /* XCTest.framework */,
+				11C9050F8D104ADCA4CBDFB4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8018AAD193784780052127C /* 小海嚴選 */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDA5971938305C00A93B13 /* UserInterface */,
+				F8FDA5961938305000A93B13 /* Controllers */,
+				F8FDA5951938303600A93B13 /* Extension */,
+				F8018AB6193784780052127C /* BeautyMasterAppDelegate.h */,
+				F8018AB7193784780052127C /* BeautyMasterAppDelegate.m */,
+				F8018ABF193784780052127C /* Images.xcassets */,
+				F8018AAE193784780052127C /* Supporting Files */,
+			);
+			path = "小海嚴選";
+			sourceTree = "<group>";
+		};
+		F8018AAE193784780052127C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8018AAF193784780052127C /* 小海嚴選-Info.plist */,
+				F8018AB0193784780052127C /* InfoPlist.strings */,
+				F8018AB3193784780052127C /* main.m */,
+				F8018AB5193784780052127C /* 小海嚴選-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8018ACC193784790052127C /* 小海嚴選Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8018AD2193784790052127C /* ____Tests.m */,
+				F8018ACD193784790052127C /* Supporting Files */,
+			);
+			path = "小海嚴選Tests";
+			sourceTree = "<group>";
+		};
+		F8018ACD193784790052127C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8018ACE193784790052127C /* 小海嚴選Tests-Info.plist */,
+				F8018ACF193784790052127C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8FDA5951938303600A93B13 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F8018ADC1937A8E30052127C /* BeautyStream.h */,
+				F8018ADD1937A8E30052127C /* BeautyStream.m */,
+				F8018ADF1937AAA40052127C /* BeautyStreamCell.h */,
+				F8018AE01937AAA40052127C /* BeautyStreamCell.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		F8FDA5961938305000A93B13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8018ABC193784780052127C /* BeautyMasterViewController.h */,
+				F8018ABD193784780052127C /* BeautyMasterViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F8FDA5971938305C00A93B13 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				F8018AB9193784780052127C /* Main.storyboard */,
+				F8FDA59B1938308D00A93B13 /* BeautyStreamCell.xib */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8018AA3193784780052127C /* 小海嚴選 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8018AD6193784790052127C /* Build configuration list for PBXNativeTarget "小海嚴選" */;
+			buildPhases = (
+				11F09CC1503642B9A0348024 /* Check Pods Manifest.lock */,
+				F8018AA0193784780052127C /* Sources */,
+				F8018AA1193784780052127C /* Frameworks */,
+				F8018AA2193784780052127C /* Resources */,
+				0B33EAC322DD4D5CA19E127B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "小海嚴選";
+			productName = "小海嚴選";
+			productReference = F8018AA4193784780052127C /* 小海嚴選.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8018AC4193784780052127C /* 小海嚴選Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8018AD9193784790052127C /* Build configuration list for PBXNativeTarget "小海嚴選Tests" */;
+			buildPhases = (
+				F8018AC1193784780052127C /* Sources */,
+				F8018AC2193784780052127C /* Frameworks */,
+				F8018AC3193784780052127C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8018ACB193784790052127C /* PBXTargetDependency */,
+			);
+			name = "小海嚴選Tests";
+			productName = "小海嚴選Tests";
+			productReference = F8018AC5193784780052127C /* 小海嚴選Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8018A9C193784780052127C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BeautyMaster;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = boboRAY;
+				TargetAttributes = {
+					F8018AC4193784780052127C = {
+						TestTargetID = F8018AA3193784780052127C;
+					};
+				};
+			};
+			buildConfigurationList = F8018A9F193784780052127C /* Build configuration list for PBXProject "小海嚴選" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8018A9B193784780052127C;
+			productRefGroup = F8018AA5193784780052127C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8018AA3193784780052127C /* 小海嚴選 */,
+				F8018AC4193784780052127C /* 小海嚴選Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8018AA2193784780052127C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8018AC0193784780052127C /* Images.xcassets in Resources */,
+				F8018AB2193784780052127C /* InfoPlist.strings in Resources */,
+				F8018ABB193784780052127C /* Main.storyboard in Resources */,
+				F8FDA59C1938308D00A93B13 /* BeautyStreamCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8018AC3193784780052127C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8018AD1193784790052127C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B33EAC322DD4D5CA19E127B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11F09CC1503642B9A0348024 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8018AA0193784780052127C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8018AB8193784780052127C /* BeautyMasterAppDelegate.m in Sources */,
+				F8018AB4193784780052127C /* main.m in Sources */,
+				F8018ABE193784780052127C /* BeautyMasterViewController.m in Sources */,
+				F8018ADE1937A8E30052127C /* BeautyStream.m in Sources */,
+				F8018AE11937AAA40052127C /* BeautyStreamCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8018AC1193784780052127C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8018AD3193784790052127C /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8018ACB193784790052127C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8018AA3193784780052127C /* 小海嚴選 */;
+			targetProxy = F8018ACA193784790052127C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8018AB0193784780052127C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8018AB1193784780052127C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8018AB9193784780052127C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8018ABA193784780052127C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8018ACF193784790052127C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8018AD0193784790052127C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8018AD4193784790052127C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "-gta";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8018AD5193784790052127C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CODE_SIGN_FLAGS = "-gta";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8018AD7193784790052127C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE14DCF4867424DB2726D64 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "小海嚴選/小海嚴選-Prefix.pch";
+				INFOPLIST_FILE = "小海嚴選/小海嚴選-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8018AD8193784790052127C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE14DCF4867424DB2726D64 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "小海嚴選/小海嚴選-Prefix.pch";
+				INFOPLIST_FILE = "小海嚴選/小海嚴選-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F8018ADA193784790052127C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/小海嚴選.app/小海嚴選";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "小海嚴選/小海嚴選-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "小海嚴選Tests/小海嚴選Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F8018ADB193784790052127C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/小海嚴選.app/小海嚴選";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "小海嚴選/小海嚴選-Prefix.pch";
+				INFOPLIST_FILE = "小海嚴選Tests/小海嚴選Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8018A9F193784780052127C /* Build configuration list for PBXProject "小海嚴選" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8018AD4193784790052127C /* Debug */,
+				F8018AD5193784790052127C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8018AD6193784790052127C /* Build configuration list for PBXNativeTarget "小海嚴選" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8018AD7193784790052127C /* Debug */,
+				F8018AD8193784790052127C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8018AD9193784790052127C /* Build configuration list for PBXNativeTarget "小海嚴選Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8018ADA193784790052127C /* Debug */,
+				F8018ADB193784790052127C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8018A9C193784780052127C /* Project object */;
+}
