@@ -29,6 +29,8 @@
 -(void)viewWillAppear:(BOOL)animated{
     [self.collectionView registerNib:[UINib nibWithNibName:@"BeautyStreamCell" bundle:[NSBundle mainBundle]]
         forCellWithReuseIdentifier:@"BeautyStreamCell"];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
+
 }
 
 
@@ -36,6 +38,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
     
     _beauties = [NSMutableArray new];
     page = 0;
@@ -44,6 +47,10 @@
     [self loadBeautyStream];
      
 
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 
