@@ -26,6 +26,12 @@
     int page;
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [self.collectionView registerNib:[UINib nibWithNibName:@"BeautyStreamCell" bundle:[NSBundle mainBundle]]
+        forCellWithReuseIdentifier:@"BeautyStreamCell"];
+}
+
+
 
 - (void)viewDidLoad
 {
@@ -123,8 +129,17 @@
     [cell.beautyStreamImageView setImageWithURL:[NSURL URLWithString:beauty.image]
               placeholderImage:[UIImage imageNamed:@"avatar-placeholder.png"]
                        options:SDWebImageRefreshCached];
+    cell.nameLabel.text = beauty.name;
     
-
+    
+    if (indexPath.item  == _beauties.count - 8) {
+        [self configureRestKit];
+        [self loadBeautyStream];
+    }
+    
+    
+    
+    
     return cell;
 }
 

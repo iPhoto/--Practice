@@ -12,4 +12,6 @@
 
 @property(weak,nonatomic) IBOutlet UIImageView *beautyStreamImageView;
 
+@property(weak,nonatomic) IBOutlet UILabel *nameLabel;
+
 @end
