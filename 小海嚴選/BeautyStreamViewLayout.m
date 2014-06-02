@@ -21,10 +21,7 @@ static NSString * const BeautyStreamLayoutPhotoCellKind = @"BeautyStreamCell";
 
 
 
-#pragma mark - Lifecycle
 
-
-// a change to do initialization or pre-determined layout for cells
 - (void)prepareLayout {
     self.itemSize = CGSizeMake(160, 160);
     self.minimumInteritemSpacing = 0;
@@ -33,6 +30,8 @@ static NSString * const BeautyStreamLayoutPhotoCellKind = @"BeautyStreamCell";
 }
 
 // indicate that we want to redraw as we scroll
+
+
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds {
     return YES;
 }

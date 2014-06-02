@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7766F13D-2157-401E-83F8-1E15F70A9738</string>
+	<key>IDESourceControlProjectName</key>
+	<string>小海嚴選</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2189E281-8BC0-4995-AB96-547FCA165C24</key>
+		<string>ssh://github.com/boboRAY/--Practice.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>小海嚴選.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2189E281-8BC0-4995-AB96-547FCA165C24</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/boboRAY/--Practice.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2189E281-8BC0-4995-AB96-547FCA165C24</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2189E281-8BC0-4995-AB96-547FCA165C24</string>
+			<key>IDESourceControlWCCName</key>
+			<string>小海嚴選</string>
+		</dict>
+	</array>
+</dict>
+</plist>
