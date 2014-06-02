@@ -134,21 +134,21 @@
     
     BeautyStream *beauty = _beauties[indexPath.row];
     [cell.beautyStreamImageView setImageWithURL:[NSURL URLWithString:beauty.image]
-              placeholderImage:[UIImage imageNamed:@"avatar-placeholder.png"]
+              placeholderImage:[UIImage imageNamed:@"Loading_placeholder.png"]
                        options:SDWebImageRefreshCached];
     cell.nameLabel.text = beauty.name;
-    
     
     if (indexPath.item  == _beauties.count - 8) {
         [self configureRestKit];
         [self loadBeautyStream];
     }
-    
-    
-    
-    
     return cell;
 }
+
+
+
+
+
 
 
 

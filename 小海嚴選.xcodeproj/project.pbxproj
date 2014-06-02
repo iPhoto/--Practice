@@ -25,6 +25,8 @@
 		F8018ADE1937A8E30052127C /* BeautyStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F8018ADD1937A8E30052127C /* BeautyStream.m */; };
 		F8018AE11937AAA40052127C /* BeautyStreamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8018AE01937AAA40052127C /* BeautyStreamCell.m */; };
 		F8FDA59C1938308D00A93B13 /* BeautyStreamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FDA59B1938308D00A93B13 /* BeautyStreamCell.xib */; };
+		F8FDA59E193844BD00A93B13 /* Loading_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FDA59D193844BD00A93B13 /* Loading_placeholder.png */; };
+		F8FDA5A31938495E00A93B13 /* BeautyStreamViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FDA5A21938495E00A93B13 /* BeautyStreamViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,9 @@
 		F8018ADF1937AAA40052127C /* BeautyStreamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyStreamCell.h; sourceTree = "<group>"; };
 		F8018AE01937AAA40052127C /* BeautyStreamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyStreamCell.m; sourceTree = "<group>"; };
 		F8FDA59B1938308D00A93B13 /* BeautyStreamCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeautyStreamCell.xib; sourceTree = "<group>"; };
+		F8FDA59D193844BD00A93B13 /* Loading_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Loading_placeholder.png; sourceTree = "<group>"; };
+		F8FDA5A11938495E00A93B13 /* BeautyStreamViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyStreamViewLayout.h; sourceTree = "<group>"; };
+		F8FDA5A21938495E00A93B13 /* BeautyStreamViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyStreamViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,10 +131,12 @@
 		F8018AAD193784780052127C /* 小海嚴選 */ = {
 			isa = PBXGroup;
 			children = (
+				F8FDA59F193846BC00A93B13 /* View */,
 				F8FDA5971938305C00A93B13 /* UserInterface */,
 				F8FDA5961938305000A93B13 /* Controllers */,
 				F8FDA5951938303600A93B13 /* Extension */,
 				F8018AB6193784780052127C /* BeautyMasterAppDelegate.h */,
+				F8FDA59D193844BD00A93B13 /* Loading_placeholder.png */,
 				F8018AB7193784780052127C /* BeautyMasterAppDelegate.m */,
 				F8018ABF193784780052127C /* Images.xcassets */,
 				F8018AAE193784780052127C /* Supporting Files */,
@@ -171,8 +178,6 @@
 			children = (
 				F8018ADC1937A8E30052127C /* BeautyStream.h */,
 				F8018ADD1937A8E30052127C /* BeautyStream.m */,
-				F8018ADF1937AAA40052127C /* BeautyStreamCell.h */,
-				F8018AE01937AAA40052127C /* BeautyStreamCell.m */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -190,9 +195,28 @@
 			isa = PBXGroup;
 			children = (
 				F8018AB9193784780052127C /* Main.storyboard */,
-				F8FDA59B1938308D00A93B13 /* BeautyStreamCell.xib */,
 			);
 			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		F8FDA59F193846BC00A93B13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDA5A0193846C500A93B13 /* Collection View Cell */,
+				F8FDA5A11938495E00A93B13 /* BeautyStreamViewLayout.h */,
+				F8FDA5A21938495E00A93B13 /* BeautyStreamViewLayout.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F8FDA5A0193846C500A93B13 /* Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F8018ADF1937AAA40052127C /* BeautyStreamCell.h */,
+				F8018AE01937AAA40052127C /* BeautyStreamCell.m */,
+				F8FDA59B1938308D00A93B13 /* BeautyStreamCell.xib */,
+			);
+			name = "Collection View Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +301,7 @@
 				F8018AC0193784780052127C /* Images.xcassets in Resources */,
 				F8018AB2193784780052127C /* InfoPlist.strings in Resources */,
 				F8018ABB193784780052127C /* Main.storyboard in Resources */,
+				F8FDA59E193844BD00A93B13 /* Loading_placeholder.png in Resources */,
 				F8FDA59C1938308D00A93B13 /* BeautyStreamCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8FDA5A31938495E00A93B13 /* BeautyStreamViewLayout.m in Sources */,
 				F8018AB8193784780052127C /* BeautyMasterAppDelegate.m in Sources */,
 				F8018AB4193784780052127C /* main.m in Sources */,
 				F8018ABE193784780052127C /* BeautyMasterViewController.m in Sources */,
