@@ -11,7 +11,7 @@
 #import "BeautyStream.h"
 #import "BeautyStreamCell.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-
+#import "BeautyStreamDetailViewController.h"
 @interface BeautyMasterViewController ()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 @property(nonatomic, weak) IBOutlet UICollectionView *collectionView;
 
@@ -23,13 +23,19 @@
 @implementation BeautyMasterViewController
 
 {
+
     int page;
+    NSIndexPath *indexForSelected;
 }
+
+
+
+
 
 -(void)viewWillAppear:(BOOL)animated{
     [self.collectionView registerNib:[UINib nibWithNibName:@"BeautyStreamCell" bundle:[NSBundle mainBundle]]
         forCellWithReuseIdentifier:@"BeautyStreamCell"];
-    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
+    //[[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
 
 }
 
@@ -38,7 +44,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    //[[UIApplication sharedApplication] setStatusBarHidden:YES];
     
     _beauties = [NSMutableArray new];
     page = 0;
@@ -48,11 +54,11 @@
      
 
 }
-
+/*
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
-
+*/
 
 -(void)configureRestKit
 {
@@ -143,6 +149,40 @@
     }
     return cell;
 }
+
+
+#pragma mark - Select
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    indexForSelected = [NSIndexPath new];
+    indexForSelected = indexPath;
+    
+    
+    [self performSegueWithIdentifier:@"ShowStreamBeautyDetail" sender:self];
+    [self.collectionView
+     deselectItemAtIndexPath:indexPath animated:YES];
+    
+}
+
+
+
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"ShowStreamBeautyDetail"]) {
+        BeautyStreamDetailViewController *destController = segue.destinationViewController;
+        BeautyStream *beauty = [_beauties objectAtIndex:indexForSelected.row];
+        destController.beauty = beauty;
+    }
+}
+
+
+
+
+
+
+
 
 
 
