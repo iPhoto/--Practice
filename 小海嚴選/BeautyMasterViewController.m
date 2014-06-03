@@ -13,6 +13,7 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "BeautyStreamDetailViewController.h"
 @interface BeautyMasterViewController ()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
+
 @property(nonatomic, weak) IBOutlet UICollectionView *collectionView;
 
 @property(nonatomic,strong) NSMutableArray *beauties;
@@ -77,7 +78,7 @@
     RKResponseDescriptor *responseDescriptor =
     [RKResponseDescriptor responseDescriptorWithMapping:beautyStreamMapping
                                                  method:RKRequestMethodGET
-                                            pathPattern:@"stream/"
+                                            pathPattern:nil 
                                                 keyPath:@"results"
                                             statusCodes:[NSIndexSet indexSetWithIndex:200]];
     

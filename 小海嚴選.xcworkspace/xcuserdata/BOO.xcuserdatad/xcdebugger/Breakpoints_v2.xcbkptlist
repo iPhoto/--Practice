@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5c0f;&#x6d77;&#x56b4;&#x9078;/BeautyMasterViewController.m"
-            timestampString = "423479562.299482"
+            timestampString = "423483370.054127"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
             landmarkName = "-collectionView:didSelectItemAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,12 +26,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5c0f;&#x6d77;&#x56b4;&#x9078;/BeautyMasterViewController.m"
-            timestampString = "423479713.085176"
+            timestampString = "423483370.054127"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
             landmarkName = "-prepareForSegue:sender:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5c0f;&#x6d77;&#x56b4;&#x9078;/BeautyDailyCollectionViewController.m"
+            timestampString = "423509134.811901"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5c0f;&#x6d77;&#x56b4;&#x9078;/BeautyDailyCollectionViewController.m"
+            timestampString = "423505499.273024"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-configureRestKit"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5c0f;&#x6d77;&#x56b4;&#x9078;/BeautyDailyCollectionViewController.m"
+            timestampString = "423505528.091285"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-loadBeautyDaily"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

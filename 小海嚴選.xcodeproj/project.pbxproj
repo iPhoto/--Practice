@@ -25,6 +25,9 @@
 		F8018ADE1937A8E30052127C /* BeautyStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F8018ADD1937A8E30052127C /* BeautyStream.m */; };
 		F8018AE11937AAA40052127C /* BeautyStreamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8018AE01937AAA40052127C /* BeautyStreamCell.m */; };
 		F88F4D9A193DBC4800F454F8 /* BeautyStreamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F4D99193DBC4800F454F8 /* BeautyStreamDetailViewController.m */; };
+		F88F4D9D193DD3C000F454F8 /* BeautyDailyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F4D9C193DD3C000F454F8 /* BeautyDailyCollectionViewController.m */; };
+		F88F4DA0193DD53300F454F8 /* BeautyDailyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F4D9F193DD53300F454F8 /* BeautyDailyCell.m */; };
+		F88F4DA3193DD57200F454F8 /* BeautyDaily.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F4DA2193DD57200F454F8 /* BeautyDaily.m */; };
 		F8FDA59C1938308D00A93B13 /* BeautyStreamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FDA59B1938308D00A93B13 /* BeautyStreamCell.xib */; };
 		F8FDA59E193844BD00A93B13 /* Loading_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FDA59D193844BD00A93B13 /* Loading_placeholder.png */; };
 		F8FDA5A31938495E00A93B13 /* BeautyStreamViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FDA5A21938495E00A93B13 /* BeautyStreamViewLayout.m */; };
@@ -68,6 +71,12 @@
 		F8018AE01937AAA40052127C /* BeautyStreamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyStreamCell.m; sourceTree = "<group>"; };
 		F88F4D98193DBC4800F454F8 /* BeautyStreamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyStreamDetailViewController.h; sourceTree = "<group>"; };
 		F88F4D99193DBC4800F454F8 /* BeautyStreamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyStreamDetailViewController.m; sourceTree = "<group>"; };
+		F88F4D9B193DD3C000F454F8 /* BeautyDailyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyDailyCollectionViewController.h; sourceTree = "<group>"; };
+		F88F4D9C193DD3C000F454F8 /* BeautyDailyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyDailyCollectionViewController.m; sourceTree = "<group>"; };
+		F88F4D9E193DD53300F454F8 /* BeautyDailyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyDailyCell.h; sourceTree = "<group>"; };
+		F88F4D9F193DD53300F454F8 /* BeautyDailyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyDailyCell.m; sourceTree = "<group>"; };
+		F88F4DA1193DD57200F454F8 /* BeautyDaily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyDaily.h; sourceTree = "<group>"; };
+		F88F4DA2193DD57200F454F8 /* BeautyDaily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyDaily.m; sourceTree = "<group>"; };
 		F8FDA59B1938308D00A93B13 /* BeautyStreamCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeautyStreamCell.xib; sourceTree = "<group>"; };
 		F8FDA59D193844BD00A93B13 /* Loading_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Loading_placeholder.png; sourceTree = "<group>"; };
 		F8FDA5A11938495E00A93B13 /* BeautyStreamViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyStreamViewLayout.h; sourceTree = "<group>"; };
@@ -181,6 +190,8 @@
 			children = (
 				F8018ADC1937A8E30052127C /* BeautyStream.h */,
 				F8018ADD1937A8E30052127C /* BeautyStream.m */,
+				F88F4DA1193DD57200F454F8 /* BeautyDaily.h */,
+				F88F4DA2193DD57200F454F8 /* BeautyDaily.m */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -192,6 +203,8 @@
 				F8018ABD193784780052127C /* BeautyMasterViewController.m */,
 				F88F4D98193DBC4800F454F8 /* BeautyStreamDetailViewController.h */,
 				F88F4D99193DBC4800F454F8 /* BeautyStreamDetailViewController.m */,
+				F88F4D9B193DD3C000F454F8 /* BeautyDailyCollectionViewController.h */,
+				F88F4D9C193DD3C000F454F8 /* BeautyDailyCollectionViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -220,6 +233,8 @@
 				F8018ADF1937AAA40052127C /* BeautyStreamCell.h */,
 				F8018AE01937AAA40052127C /* BeautyStreamCell.m */,
 				F8FDA59B1938308D00A93B13 /* BeautyStreamCell.xib */,
+				F88F4D9E193DD53300F454F8 /* BeautyDailyCell.h */,
+				F88F4D9F193DD53300F454F8 /* BeautyDailyCell.m */,
 			);
 			name = "Collection View Cell";
 			sourceTree = "<group>";
@@ -359,10 +374,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88F4D9D193DD3C000F454F8 /* BeautyDailyCollectionViewController.m in Sources */,
 				F8FDA5A31938495E00A93B13 /* BeautyStreamViewLayout.m in Sources */,
 				F8018AB8193784780052127C /* BeautyMasterAppDelegate.m in Sources */,
 				F8018AB4193784780052127C /* main.m in Sources */,
 				F8018ABE193784780052127C /* BeautyMasterViewController.m in Sources */,
+				F88F4DA3193DD57200F454F8 /* BeautyDaily.m in Sources */,
+				F88F4DA0193DD53300F454F8 /* BeautyDailyCell.m in Sources */,
 				F8018ADE1937A8E30052127C /* BeautyStream.m in Sources */,
 				F88F4D9A193DBC4800F454F8 /* BeautyStreamDetailViewController.m in Sources */,
 				F8018AE11937AAA40052127C /* BeautyStreamCell.m in Sources */,
