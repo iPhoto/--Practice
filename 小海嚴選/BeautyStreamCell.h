@@ -14,4 +14,7 @@
 
 @property(weak,nonatomic) IBOutlet UILabel *nameLabel;
 
+
+
+
 @end

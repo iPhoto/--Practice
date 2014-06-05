@@ -16,6 +16,10 @@
 
 @property(nonatomic, weak) IBOutlet UICollectionView *collectionView;
 
+@property(nonatomic,strong) NSMutableArray *cellSizeHeight;
+
+@property(nonatomic,strong) NSMutableArray *cellSizeWidth;
+
 @property(nonatomic,strong) NSMutableArray *beauties;
 
 
@@ -46,7 +50,8 @@
 {
     [super viewDidLoad];
     //[[UIApplication sharedApplication] setStatusBarHidden:YES];
-    
+    _cellSizeHeight = [NSMutableArray new];
+    _cellSizeWidth = [NSMutableArray new];
     _beauties = [NSMutableArray new];
     page = 0;
     
@@ -140,10 +145,15 @@
     BeautyStreamCell *cell = (BeautyStreamCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"BeautyStreamCell" forIndexPath:indexPath];
     
     BeautyStream *beauty = _beauties[indexPath.row];
+    
     [cell.beautyStreamImageView setImageWithURL:[NSURL URLWithString:beauty.image]
               placeholderImage:[UIImage imageNamed:@"Loading_placeholder.png"]
                        options:SDWebImageRefreshCached];
-        cell.nameLabel.text = beauty.name;
+    
+    
+    cell.nameLabel.text = beauty.name;
+    
+    
     if (indexPath.item  == _beauties.count - 8) {
         [self configureRestKit];
         [self loadBeautyStream];
@@ -151,6 +161,10 @@
     return cell;
 }
 
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{
+    [self.collectionView performBatchUpdates:nil completion:nil];
+}
 
 #pragma mark - Select
 

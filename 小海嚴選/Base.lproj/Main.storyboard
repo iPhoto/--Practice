@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tb0-Cd-Zo6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="673" y="-223"/>
+            <point key="canvasLocation" x="757" y="-223"/>
         </scene>
         <!--Beauty Stream Detail View Controller-->
         <scene sceneID="nby-Qn-aP8">
@@ -56,7 +56,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fh-pL-5cY">
-                                <rect key="frame" x="0.0" y="487" width="320" height="55"/>
+                                <rect key="frame" x="0.0" y="437" width="320" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
@@ -74,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IBU-cc-YsA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1157" y="-175"/>
+            <point key="canvasLocation" x="1185" y="-177"/>
         </scene>
         <!--Navigation Controller - 正妹流-->
         <scene sceneID="kdB-We-jjo">
